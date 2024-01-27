@@ -1,0 +1,9 @@
+{
+    "required": true,
+    "minVersion": "0.7.10",
+    "package": "com.pedruhb.modblacklist.mixins",
+    "refmap": "modblacklist.refmap.json",
+    "target": "@env(DEFAULT)",
+    "compatibilityLevel": "JAVA_17",
+    "server": ["PlayerListMixin", "ServerLoginNetHandlerMixin"]
+}
