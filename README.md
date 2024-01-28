@@ -18,8 +18,6 @@ banMods = "journeymap;simplemaps;blazemap"
 
 #Comma Separated Mod Ids to KICK! ex: journeymap;jei;jade
 kickMods = ""
-
-
 ```
 
 # Install
