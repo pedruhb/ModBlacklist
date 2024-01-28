@@ -7,7 +7,6 @@ import net.minecraft.network.Connection;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.network.ServerLoginPacketListenerImpl;
 
-import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -24,7 +23,6 @@ public class ServerLoginNetHandlerMixin {
     @Shadow
     @Final
     private MinecraftServer server;
-
 
     @Inject(at = { @At("HEAD") }, method = { "handleAcceptedLogin" })
     public void handleAcceptedLogin(CallbackInfo info) {
