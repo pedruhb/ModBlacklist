@@ -3,6 +3,10 @@
 
 A server side only mod to prevent users join server using any listed mod.
 
+Available on Curseforge: https://legacy.curseforge.com/minecraft/mc-mods/modblacklist
+
+Available on Modrinth: https://modrinth.com/mod/mod-blacklist
+
 # Example Config
 
 My example config.
